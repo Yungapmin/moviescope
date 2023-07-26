@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<typeAliases>
+<typeAlias type="kr.co.dong.DTO.adminDTO" alias="adminDTO"/>
+<typeAlias type="kr.co.dong.DTO.ageDTO" alias="ageDTO"/>
+<typeAlias type="kr.co.dong.DTO.articleDTO" alias="articleDTO"/>
+<typeAlias type="kr.co.dong.DTO.boardDTO" alias="boardDTO"/>
+<typeAlias type="kr.co.dong.DTO.genreDTO" alias="genreDTO"/>
+<typeAlias type="kr.co.dong.DTO.movieDTO" alias="movieDTO"/>
+<typeAlias type="kr.co.dong.DTO.nationDTO" alias="nationDTO"/>
+<typeAlias type="kr.co.dong.DTO.userDTO" alias="userDTO"/>
+<typeAlias type="kr.co.dong.DTO.userfavoriteDTO" alias="userfavoriteDTO"/>
+</typeAliases>
+</configuration>

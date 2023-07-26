@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="kr.co.dong.boardMapper"> 
+		<!-- 작성 리뷰 정보조회 / 게시판 -->
+		<select id="rv_check" resultType="int">
+			SELECT * FROM board
+			 WHERE FK_u_number=#{FK_u_number}
+		</select>
+		
+		
+  </mapper>
